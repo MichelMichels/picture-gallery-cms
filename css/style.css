@@ -1,0 +1,122 @@
+/**
+ * Stylesheet Photo Gallery
+ * 
+ * @author Michel Michels
+ * @date 2/04/2016
+ */
+
+/**
+ * Reset
+ */
+
+	*, html {
+		padding: 0;
+		margin: 0;
+	}
+
+	html {
+		width: 100%;
+		height: 100%;
+		font-family: sans-serif;
+	}
+
+	body {
+		background-color: #ccc;
+	}
+
+/**
+ * Wrapper
+ */
+
+ 	#wrapper {
+ 		width: 1080px;
+ 		margin: 0 auto;
+ 		height: 100%;
+ 	}
+
+/**
+ * Menu
+ */
+
+ 	header {
+ 		height: 4rem;
+ 		background-color: yellow;
+ 	}
+
+ 	nav ul {
+ 		list-style: none;
+ 	}
+
+ 	/* list items on same line */
+ 	nav ul li {
+ 		display: inline-block;
+ 	}
+
+ 	nav ul li a {
+ 		display: block;
+ 		text-transform: uppercase;
+ 		height: 4rem;
+ 		line-height: 4rem;
+ 		/*width: 100%;*/
+ 		font-size: 1.6rem;
+ 		text-decoration: none;
+ 		color: black;
+ 		padding: 0 1rem;
+ 	}
+
+ 	nav ul li a:hover {
+ 		background-color: #eee;
+ 	}
+
+ 	nav {
+ 		float: left;
+ 	}
+
+
+/**
+ * Upload images CTA
+ */
+
+  	#upload-button {
+  		display: block;
+  		float: right;
+  		text-transform: uppercase;
+  		background-color: red;
+  		font-size: 1.6rem;
+  		padding: 0.5rem;
+  		margin: 0.5rem;
+  		border-radius: 0.1rem;
+  		text-decoration: none;
+  		color: white;
+  	}
+
+/**
+ * Content on browse.php
+ */
+
+ 	section.category {
+ 		padding: 1rem;
+ 		margin: 1rem 0;
+ 		background-color: white;
+ 	}
+
+ 	.category h2 {
+ 		margin-bottom: 1rem;
+ 	}
+
+ 	.category ul {
+ 		list-style: none;
+ 	}
+
+ 	.category ul li {
+ 		display: inline-block;
+ 	}
+
+ 	.category img {
+ 		height: 6rem;
+ 		width: 8rem;
+ 		margin-right: 1rem;
+ 		margin-bottom: 1rem;
+ 	}
+
+
